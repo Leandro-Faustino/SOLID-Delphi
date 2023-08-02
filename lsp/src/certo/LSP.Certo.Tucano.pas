@@ -1,3 +1,6 @@
+//Embora minha classe tenha novos métodos bicar e voar,
+//os comportamentos estão sendo implemtados dentro da class Ave.
+
 unit LSP.Certo.Tucano;
 
 interface
@@ -7,7 +10,7 @@ uses LSP.Certo.Ave;
 type
   TTucano = class
   private
-    FAve: TAve;
+    FAve: TAve;   // composição
   public
     constructor Create;
     procedure Bicar;

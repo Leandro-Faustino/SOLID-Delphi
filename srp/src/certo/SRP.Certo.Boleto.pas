@@ -10,7 +10,7 @@ type
     FEmail: IEmail;
     procedure Gerar;
   public
-    constructor Create(const AEmail: IEmail);
+    constructor Create(const AEmail: IEmail);  //injestão de dependencias do email
     property Email: IEmail read FEmail;
   end;
 

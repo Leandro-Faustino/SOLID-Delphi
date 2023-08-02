@@ -1,3 +1,4 @@
+//class Email implementando a Interface Email
 unit SRP.Certo.Email;
 
 interface

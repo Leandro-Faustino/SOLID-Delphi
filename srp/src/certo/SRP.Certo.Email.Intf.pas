@@ -1,3 +1,5 @@
+// criei uma interface de email
+
 unit SRP.Certo.Email.Intf;
 
 interface

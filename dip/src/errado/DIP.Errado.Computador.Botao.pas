@@ -1,3 +1,5 @@
+//se eu tiver 20 tipos de PC, vou ter que implementar 20 tipos de botão
+//pois minha dependência vem de uma classe concreta
 unit DIP.Errado.Computador.Botao;
 
 interface
@@ -7,7 +9,7 @@ uses DIP.Errado.Computador;
 type
   TBotaoComputador = class
   private
-    FComputador: TComputador;
+    FComputador: TComputador;  //depende de uma classe concreta
   public
     constructor Create;
     procedure Acionar;
